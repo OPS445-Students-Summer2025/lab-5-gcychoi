@@ -82,7 +82,7 @@ test_d_function_read_file_correct_output_2 (__main__.lab5c.test_d_function_read_
 [Lab 5] - [Investigation 2] - [Part 1] - Files - Test for output: ./lab5c.py ... ok
 
 ----------------------------------------------------------------------
-Ran 41 tests in 0.044s
+Ran 41 tests in 0.099s
 
 OK
 OPS445 Lab Report - System Information for running ./CheckLab5.py
@@ -93,5 +93,5 @@ OPS445 Lab Report - System Information for running ./CheckLab5.py
     Python version: 3123
     OS Platform: linux
     Working Directory: /home/cychoi/ops445/lab5
-    Start at: Mon Jun  9 23:13:17 2025
+    Start at: Tue Jun 10 08:28:02 2025
 =================================================================
