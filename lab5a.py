@@ -17,13 +17,14 @@ def read_file_list(file_name):
     # return its entire contents as a list of lines without new-line characters
     f = open(file_name, 'r')
     read_data = f.read() 
-    new_list = read_data.split('\n')
+    #new_list = read_data.split('\n')
+    new_list = read_data.splitlines()
+    #i = 0 
+    #while i < len(new_list):
+    #    if new_list[i] == "":
+    #        new_list.pop(i)
+    #    i = i + 1  
     f.close()
-    i = 0 
-    while i < len(new_list):
-        if new_list[i] == "":
-            new_list.pop(i)
-        i = i + 1  
     return new_list
 
 if __name__ == '__main__':
